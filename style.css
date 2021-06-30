@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 13px;
+}
+
+header {
+    width: 100%;
+    height: 80rem;
+    background-image: url(https://st2.depositphotos.com/1592123/11658/i/950/depositphotos_116582252-stock-photo-spice-herbs-and-vegetables-frame.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hizala {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+#hizala h1,
+#hizala h3 {
+    color: white;
+    text-align: center;
+}
+
+#headerSearch {
+    border: 1px solid #FF6345;
+    border-radius: 2px;
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    background-color: #FF6345;
+    padding: 1.5rem 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+form input {
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    text-indent: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.iconHeader::placeholder {
+    background-image: url(img/placeholder.png);
+    width: 16px;
+    height: 1.3rem;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+form button {
+    width: 50%;
+    height: 2.7rem;
+    background-color: #FFBE00;
+    border: none;
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px 0px 0px 250px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: white;
+    color: #FF6345;
+    transition: 1s;
+}
+
+.box {
+    width: 100%;
+    height: 8rem;
+}
+
+.boxPencere {
+    background-color: #FFBE00;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    padding-top: 0.7rem;
+    float: left;
+}
+
+.boxPencere:hover {
+    background-color: White;
+}
+
+.boxIcon1 {
+    background-image: url(img/megaphone.png);
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    margin: auto;
+    transition: 1s;
+}
+
+.boxIcon2 {
+    background-image: url(img/man.png);
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    margin: auto;
+    transition: 1s;
+}
+
+.boxIcon3 {
+    background-image: url(img/team.png);
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    margin: auto;
+    transition: 1s;
+}
+
+.boxIcon4 {
+    background-image: url(img/man.png);
+    width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    margin: auto;
+    transition: 1s;
+}
+
+.boxInfo {
+    width: 65%;
+    height: 7rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+.box h2,
+.box p {
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+#foodPencere {
+    border: 5px solid #FFBE00;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.food1 {
+    background-image: url(img/976648.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.food2 {
+    background-image: url(img/786706.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.food3 {
+    background-image: url(img/304627.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.food4 {
+    background-image: url(img/1079225.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.foodInfo h2 {
+    text-align: center;
+}
+
+.foodLike {
+    background-image: url(img/like.png);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+footer {
+    width: 100%;
+    height: 40rem;
+    background-color: #FFB300;
+}
+
+#footerInfo {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+#footerInfo h1 {
+    text-align: center;
+}
+
+#hizalaFooter {
+    width: 90%;
+    margin: 10px 0px 10px 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 10% 0px 0px;
+    padding: 0;
+    text-align: center;
+    height: 70px;
+    align-content: center;
+    margin-left: 30%;
+    width: 50%;
+}
+
+button {
+    padding: 2rem 2rem;
+    background-color: black;
+    cursor: pointer;
+    float: left;
+}
+
+.alist {
+    padding: 2rem 2rem;
+    background-color: black;
+    float: left;
+}
+
+a button {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+input[type=text] {
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
